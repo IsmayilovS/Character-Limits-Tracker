@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-image: linear-gradient(to right, rgb(95, 10, 134), rgb(159, 75, 140)); 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+.card{
+    position: relative;
+    height: 150px;
+    background-color: white;
+}
+#input{
+    
+    width: 300px;
+    margin: 20px;
+    height: 110px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+#p1{
+    position: absolute;
+    left: 76%;
+    bottom: 20%;
+}
